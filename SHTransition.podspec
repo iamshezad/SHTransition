@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name         = "SHTransition"
   s.version      = "1.0.0"
   s.summary      = "VC Transition Framework"
-  s.description  = "VC Transition Framework"
+  s.description  = "Transition of views in a VC"
 
   s.homepage     = "https://github.com/iamshezad/SHTransition.git"
 
