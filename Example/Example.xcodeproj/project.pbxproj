@@ -377,6 +377,7 @@
 				02214A2C1F4C23DF00DC797B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

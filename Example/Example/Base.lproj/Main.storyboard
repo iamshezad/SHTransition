@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HYr-xT-zBI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HYr-xT-zBI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,22 +22,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sal-uf-yUf">
-                                <rect key="frame" x="137" y="283.5" width="100" height="100"/>
+                                <rect key="frame" x="147" y="293.5" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="HeH-1R-Glo"/>
-                                    <constraint firstAttribute="height" constant="100" id="Ljv-vm-uZg"/>
+                                    <constraint firstAttribute="width" constant="80" id="HeH-1R-Glo"/>
+                                    <constraint firstAttribute="height" constant="80" id="Ljv-vm-uZg"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="SHID" value="skyBlue"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oq7-0k-7XK">
-                                <rect key="frame" x="17" y="283" width="100" height="100"/>
+                                <rect key="frame" x="57" y="293" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="3f4-rx-0Am"/>
-                                    <constraint firstAttribute="height" constant="100" id="q5z-JZ-B2a"/>
+                                    <constraint firstAttribute="width" constant="80" id="3f4-rx-0Am"/>
+                                    <constraint firstAttribute="height" constant="80" id="q5z-JZ-B2a"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="SHID" value="lightBlue"/>
@@ -55,12 +55,12 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Light Blue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jnJ-Kr-r8o">
-                                <rect key="frame" x="17" y="254" width="100" height="21"/>
+                                <rect key="frame" x="57" y="264" width="80" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="2UE-0o-svx"/>
+                                    <constraint firstAttribute="width" constant="80" id="2UE-0o-svx"/>
                                     <constraint firstAttribute="height" constant="21" id="8Sw-YP-20m"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -68,12 +68,12 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sky Blue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WbQ-fD-B3I">
-                                <rect key="frame" x="137" y="254" width="100" height="21"/>
+                                <rect key="frame" x="147" y="264" width="80" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="Gbt-BZ-bm5"/>
+                                    <constraint firstAttribute="width" constant="80" id="Gbt-BZ-bm5"/>
                                     <constraint firstAttribute="height" constant="21" id="gvX-YP-SWt"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -81,12 +81,12 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Blue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qMM-5m-G5M">
-                                <rect key="frame" x="257" y="254" width="100" height="21"/>
+                                <rect key="frame" x="237" y="264" width="80" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="YPC-nu-Zjd"/>
+                                    <constraint firstAttribute="width" constant="80" id="YPC-nu-Zjd"/>
                                     <constraint firstAttribute="height" constant="21" id="kbl-Q5-Rix"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <userDefinedRuntimeAttributes>
@@ -94,11 +94,11 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YdM-jI-KH1">
-                                <rect key="frame" x="257" y="283" width="100" height="100"/>
+                                <rect key="frame" x="237" y="293" width="80" height="80"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="ZOR-Gw-oan"/>
-                                    <constraint firstAttribute="height" constant="100" id="gGi-YW-bmG"/>
+                                    <constraint firstAttribute="width" constant="80" id="ZOR-Gw-oan"/>
+                                    <constraint firstAttribute="height" constant="80" id="gGi-YW-bmG"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="SHID" value="darkBlue"/>
@@ -109,15 +109,15 @@
                         <constraints>
                             <constraint firstItem="WbQ-fD-B3I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2Xx-Cd-JYC"/>
                             <constraint firstItem="YdM-jI-KH1" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6aN-dN-VTU"/>
-                            <constraint firstItem="WbQ-fD-B3I" firstAttribute="leading" secondItem="jnJ-Kr-r8o" secondAttribute="trailing" constant="20" id="6kM-V1-3vg"/>
-                            <constraint firstItem="Sal-uf-yUf" firstAttribute="leading" secondItem="oq7-0k-7XK" secondAttribute="trailing" constant="20" id="Dzy-G1-BSm"/>
+                            <constraint firstItem="WbQ-fD-B3I" firstAttribute="leading" secondItem="jnJ-Kr-r8o" secondAttribute="trailing" constant="10" id="6kM-V1-3vg"/>
+                            <constraint firstItem="Sal-uf-yUf" firstAttribute="leading" secondItem="oq7-0k-7XK" secondAttribute="trailing" constant="10" id="Dzy-G1-BSm"/>
                             <constraint firstItem="oq7-0k-7XK" firstAttribute="top" secondItem="jnJ-Kr-r8o" secondAttribute="bottom" constant="8" id="M46-J0-rmx"/>
                             <constraint firstItem="UrK-Ni-cES" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NA7-YZ-XUD"/>
                             <constraint firstItem="Sal-uf-yUf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Usu-zd-3xz"/>
-                            <constraint firstItem="YdM-jI-KH1" firstAttribute="leading" secondItem="Sal-uf-yUf" secondAttribute="trailing" constant="20" id="ZiJ-d5-Ptb"/>
+                            <constraint firstItem="YdM-jI-KH1" firstAttribute="leading" secondItem="Sal-uf-yUf" secondAttribute="trailing" constant="10" id="ZiJ-d5-Ptb"/>
                             <constraint firstItem="Sal-uf-yUf" firstAttribute="top" secondItem="WbQ-fD-B3I" secondAttribute="bottom" constant="8" id="cHu-hZ-p7a"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="UrK-Ni-cES" secondAttribute="bottom" constant="8" id="eXh-vC-5l1"/>
-                            <constraint firstItem="qMM-5m-G5M" firstAttribute="leading" secondItem="WbQ-fD-B3I" secondAttribute="trailing" constant="20" id="fxb-0q-uvb"/>
+                            <constraint firstItem="qMM-5m-G5M" firstAttribute="leading" secondItem="WbQ-fD-B3I" secondAttribute="trailing" constant="10" id="fxb-0q-uvb"/>
                             <constraint firstItem="Sal-uf-yUf" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="h4f-hA-IAf"/>
                             <constraint firstItem="oq7-0k-7XK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hif-9g-Owj"/>
                             <constraint firstItem="YdM-jI-KH1" firstAttribute="top" secondItem="qMM-5m-G5M" secondAttribute="bottom" constant="8" id="umR-NT-MOX"/>
@@ -148,40 +148,40 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MUf-IX-6AC">
-                                <rect key="frame" x="87" y="403" width="200" height="100"/>
+                                <rect key="frame" x="107" y="393" width="160" height="80"/>
                                 <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="eVD-7L-Dh2"/>
-                                    <constraint firstAttribute="width" constant="200" id="lWt-RL-WdT"/>
+                                    <constraint firstAttribute="height" constant="80" id="eVD-7L-Dh2"/>
+                                    <constraint firstAttribute="width" constant="160" id="lWt-RL-WdT"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="SHID" value="darkBlue"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tgg-XO-uj7">
-                                <rect key="frame" x="87" y="283" width="200" height="100"/>
+                                <rect key="frame" x="107" y="293" width="160" height="80"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="L0q-ps-Jvo"/>
-                                    <constraint firstAttribute="width" constant="200" id="jS8-1u-pn0"/>
+                                    <constraint firstAttribute="height" constant="80" id="L0q-ps-Jvo"/>
+                                    <constraint firstAttribute="width" constant="160" id="jS8-1u-pn0"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="SHID" value="skyBlue"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ize-W6-zZJ">
-                                <rect key="frame" x="87" y="163" width="200" height="100"/>
+                                <rect key="frame" x="107" y="193" width="160" height="80"/>
                                 <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="TpY-HH-nOW"/>
-                                    <constraint firstAttribute="width" constant="200" id="kTW-gk-QkP"/>
+                                    <constraint firstAttribute="height" constant="80" id="TpY-HH-nOW"/>
+                                    <constraint firstAttribute="width" constant="160" id="kTW-gk-QkP"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="SHID" value="lightBlue"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sky Blue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="450-34-LdJ">
-                                <rect key="frame" x="295" y="323" width="64" height="21"/>
+                                <rect key="frame" x="275" y="323" width="64" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="64" id="88W-xn-4Xi"/>
                                     <constraint firstAttribute="height" constant="21" id="zoA-Ii-bUt"/>
@@ -194,7 +194,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dark Blue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="duW-ph-RYf">
-                                <rect key="frame" x="295" y="443" width="64" height="21"/>
+                                <rect key="frame" x="275" y="423" width="64" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="1Jl-oJ-kzf"/>
                                     <constraint firstAttribute="width" constant="64" id="Kdo-ve-NxV"/>
@@ -207,7 +207,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Light Blue" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sKx-HC-Ept">
-                                <rect key="frame" x="295" y="203" width="64" height="21"/>
+                                <rect key="frame" x="275" y="223" width="64" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Cfd-FG-IM4"/>
                                     <constraint firstAttribute="width" constant="64" id="VSi-Ou-Nea"/>
@@ -226,6 +226,9 @@
                                     <constraint firstAttribute="height" constant="30" id="FCc-7k-ZEp"/>
                                 </constraints>
                                 <state key="normal" title="Back"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="push" id="QIC-mu-fyb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -263,7 +266,6 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="HYr-xT-zBI" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="JNy-Ea-iVj">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -276,4 +278,7 @@
             <point key="canvasLocation" x="109.59999999999999" y="122.78860569715144"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="QIC-mu-fyb"/>
+    </inferredMetricsTieBreakers>
 </document>
