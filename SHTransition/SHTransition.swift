@@ -20,7 +20,7 @@ private var frameArray = [[CGRect]]()
 private var isTransition : Bool?
 private var transitionDelay : Float = 1
 private var vcArray = [[String:Any]]()
-private var delay : Float = 1
+private var delay : Float = 0.3
 private let customPresentAnimationController = SHCustomPresentAnimationTransition()
 extension UIView {
     
@@ -80,7 +80,7 @@ extension UIViewController:UINavigationControllerDelegate,UIViewControllerTransi
         }
         return nil
     }
-
+/* // Removed due to transition glitch
     @IBInspectable var transitionTime: Float {
         get {
             return transitionDelay
@@ -90,12 +90,14 @@ extension UIViewController:UINavigationControllerDelegate,UIViewControllerTransi
             setVC()
         }
     }
+    */
     
     @IBInspectable public var SHTransition: Bool {
         get { return isTransition! }
         set {
             if newValue == true{
                 isTransition = newValue
+                setVC()
             }else {
                 isTransition = false
         
@@ -111,7 +113,7 @@ extension UIViewController:UINavigationControllerDelegate,UIViewControllerTransi
             }
         }
         if flag == 0 {
-            vcArray.append(["VC":self.nibName!,"isTransition":self.SHTransition,"transitionDelay":self.transitionTime])
+            vcArray.append(["VC":self.nibName!,"isTransition":self.SHTransition,"transitionDelay":delay]) // changed 
         }
     }
     
@@ -138,7 +140,7 @@ extension UIViewController:UINavigationControllerDelegate,UIViewControllerTransi
         }
        
         if toVC.SHTransition == true {
-            delay = toVC.transitionTime
+            //delay = toVC.transitionTime
             let toViewController = toVC as UIViewController
             toViews = (toViewController.view.allSubViewsOf(type: UIView.self))
             let fromViewController = fromVC as UIViewController
