@@ -127,13 +127,13 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="SHTransition" value="YES"/>
                         <userDefinedRuntimeAttribute type="number" keyPath="transitionTime">
-                            <real key="value" value="1"/>
+                            <real key="value" value="0.29999999999999999"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1048.8" y="122.78860569715144"/>
+            <point key="canvasLocation" x="1377" y="99"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="4Ab-tv-qbo">
@@ -252,13 +252,13 @@
                     <userDefinedRuntimeAttributes>
                         <userDefinedRuntimeAttribute type="boolean" keyPath="SHTransition" value="YES"/>
                         <userDefinedRuntimeAttribute type="number" keyPath="transitionTime">
-                            <real key="value" value="1"/>
+                            <real key="value" value="0.29999999999999999"/>
                         </userDefinedRuntimeAttribute>
                     </userDefinedRuntimeAttributes>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="itS-Mb-qDd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1807" y="123"/>
+            <point key="canvasLocation" x="2166" y="99"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dUY-cT-bBb">
@@ -279,6 +279,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="wfR-fy-g4k"/>
         <segue reference="QIC-mu-fyb"/>
     </inferredMetricsTieBreakers>
 </document>
