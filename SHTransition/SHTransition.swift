@@ -67,7 +67,7 @@ extension UIView {
 
 extension UIViewController:UINavigationControllerDelegate,UIViewControllerTransitioningDelegate{
     
-    
+
     var previousViewController:UIViewController?{
         if let controllersOnNavStack = self.navigationController?.viewControllers{
             let n = controllersOnNavStack.count
@@ -195,8 +195,7 @@ extension UIViewController:UINavigationControllerDelegate,UIViewControllerTransi
         }
        let tagCount = tagArray.count
         
-        UIView.animate(withDuration: TimeInterval(delay), animations: {
-
+        UIView.animate(withDuration: TimeInterval(delay - 0.5), delay: 0.0, options:.curveEaseOut, animations: {
             for fViews in fromViews {
                 for TViews in toViews {
                     if TViews.accessibilityIdentifier != nil && fViews.accessibilityIdentifier != nil {
@@ -217,14 +216,12 @@ extension UIViewController:UINavigationControllerDelegate,UIViewControllerTransi
                                     }
                                 }
                             }
-                           
+                            
                         }
                     }
                 }
             }
-           
-        }, completion: {
-            finished in
+        }) { (finished) in
             for fViews in fromViews {
                 for TViews in toViews {
                     if TViews.accessibilityIdentifier != nil && fViews.accessibilityIdentifier != nil {
@@ -248,14 +245,13 @@ extension UIViewController:UINavigationControllerDelegate,UIViewControllerTransi
             toViewController.view.isUserInteractionEnabled = true
             tagArray = [[Int]]()
             frameArray = [[CGRect]]()
-            
-        })
+        }
     }
 
 }
 
 class SHCustomPresentAnimationTransition: NSObject, UIViewControllerAnimatedTransitioning {
-    
+
     func transitionDuration(using transitionContext: UIViewControllerContextTransitioning?) -> TimeInterval {
         return 2.5
     }
