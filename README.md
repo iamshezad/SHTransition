@@ -1,7 +1,8 @@
 # SHTransition
 SHTransition is a Library for the transition between the views in a viewcontroller
 
-<img src="/Screenshots/Transition.gif" />
+## Sample One                             ## Sample Two
+<img src="/Screenshots/Transition.gif" /> <img src="/Screenshots/Transition2.gif" /> 
 
 ## Installation	
 
